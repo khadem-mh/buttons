@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+}
+
+.button { 
+    padding: 10px 20px;
+    color: green;
+    font-size: xx-large;
+    position: relative;
+    background-color: transparent;
+    border: 2px double green;
+    overflow: hidden;
+    transition: all 0.6s;
+}
+.button:hover {
+    color: #fff;
+}
+.rect-box {
+    top: 0;
+    left: 0;
+    background-color: white;
+    z-index: -1;
+
+}
+
+.rect {
+    width: 30px;
+    height: 60px;
+    background-color: yellowgreen;
+    position: absolute;
+    transform: translateY(135px) scale(3);
+    transition: all 0.6s;
+    
+}
+
+.rect:nth-child(1) {
+    left: 6%;
+    transition-delay:0 ;
+}
+
+.rect:nth-child(2) {
+    left: 31%;
+    transition-delay:0.1s ;
+}
+
+.rect:nth-child(3) {
+    left: 56%;
+    transition-delay:0.2s ;
+}
+
+.rect:nth-child(4) {
+    left: 81%;
+    transition-delay:0.3s ;
+}
+
+.button:hover .rect {
+    transform: translateY(0) scale(3);
+}
