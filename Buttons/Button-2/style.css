@@ -1,0 +1,81 @@
+body {
+    height: 100vh;
+}
+
+.button {
+    padding: 20px;
+    border-radius: 7px;
+    background-color: green;
+    color: white;
+    font-weight: bolder;
+    position: absolute;
+    border: none;
+    transition: all 0.7s;
+    overflow: hidden;
+    text-decoration: none;
+    cursor: pointer;
+    --bs-border-style: none;
+}
+
+.border {
+    background-color: green;
+    position: absolute;
+    width: 4px;
+    height: 4px;
+}
+
+.button:hover {
+    color: green;
+    background-color: rgba(148, 216, 168, 0.356);  
+}
+
+.top,
+.left,
+.right,
+.bottom {
+    transition: all 0.7s;
+}
+
+.top {
+    top: 0;
+    left: 0;
+    transform: translateX(-60px);
+}
+
+.left {
+    top: 0;
+    left: 0;
+    transform: translateY(-50px);
+}
+
+.right {
+    bottom: 0;
+    right: 0;
+    transform: translateY(50px);
+}
+
+.bottom {
+    bottom: 0;
+    right: 0;
+    transform: translateX(60px);
+}
+
+.button:hover .top {
+    width: 100%;
+    transform: translateX(0);
+}
+
+.button:hover .left {
+    height: 100%;
+    transform: translateY(0);
+}
+
+.button:hover .bottom {
+    width: 100%;
+    transform: translateX(0);
+}
+
+.button:hover .right {
+    height: 100%;
+    transform: translateY(0);
+}
