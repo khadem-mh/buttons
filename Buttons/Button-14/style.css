@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+}
+
+.Media {
+    width: 80%;
+    height: 60px;
+    margin: 4rem auto;
+    text-align: center;
+}
+
+.icon-box {
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.icon-box .fa {
+    font-size: 30px;
+    line-height: 50px;
+    color: #FFF;
+    position: relative;
+    transition: all 0.4s;
+}
+
+.icon-box:hover .fa {
+    transform: scale(1.2);
+}
+
+.icon-box::after,
+.icon-box::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    transition: all 0.5s;
+
+}
+
+/*.instagram,
+.google,
+.whatsapp,
+.twitter {
+  
+}
+*/
+
+.instagram::after {
+    box-shadow: 0 0 6px 0 #e716d6 inset;
+}
+
+.instagram::before {
+    box-shadow: 0 0 0 30px #c4077b inset;
+    transform: translateX(50px);
+}
+
+.instagram:hover::before {
+    transform: translateX(0px);
+}
+
+/**/
+
+.google::after {
+    box-shadow: 0 0 6px 0 #e7af16 inset;
+}
+
+.google::before {
+    box-shadow: 0 0 0 0 0 #e7af16 inset, 0 0 0 0 #e7af16 inset;
+    border-radius: 0;
+}
+
+.google:hover::before {
+    box-shadow: 0 30px 0 0 #e7af16 inset, 0 -30px 0 0 #e7af16 inset;
+}
+
+/**/
+
+.whatsapp::before {
+    box-shadow: 0 0 6px 0 #3c7217 inset;
+}
+
+.whatsapp:hover::before {
+    box-shadow: 0 0 0 30px #3c7217 inset;
+}
+
+/**/
+
+.twitter::after {
+    box-shadow: 0 0 5px 0 skyblue inset;
+}
+
+.twitter::before {
+    background-color: skyblue;
+    box-shadow: 0 0 0 30px #000 inset;
+}
+
+.twitter:hover::before {
+    box-shadow: 10px 10px 0 1px gold inset;
+}

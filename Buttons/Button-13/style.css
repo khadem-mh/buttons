@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    height: 50vh;
+}
+
+.Media .fa {
+    width: 45px;
+    height: 45px;
+    background-color: rgb(0, 115, 255);
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 45px;
+    cursor: pointer;
+    font-size: 30px;
+    position: absolute;
+    top: 150px;
+    left: 80px;
+}
+
+#share {
+    width: 55px;
+    height: 55px;
+    font-size: 40px;
+    line-height: 55px;
+    z-index: 999;
+}
+
+#telegram,
+#instagram,
+#youtube,
+#facebook {
+    top: 155px;
+    left: 85px;
+}
+
+
+#telegram {
+    animation: TelegramOut 0.5s forwards;
+}
+
+#share:hover~#telegram {
+    animation: Telegram 0.5s forwards;
+}
+
+#instagram {
+    animation: InstagramOut 0.5s forwards;
+}
+
+#share:hover~#instagram {
+    animation: Instagram 0.5s forwards;
+    animation-delay: 0.3s;
+}
+
+#facebook {
+    animation: FacebookOut 0.5s forwards;
+}
+
+#share:hover~#facebook {
+    animation: Facebook 0.5s forwards;
+    animation-delay: 0.6s;
+}
+
+#youtube {
+    animation: YoutubeOut 0.5s forwards;
+}
+
+#share:hover~#youtube {
+    animation: Youtube 0.5s forwards;
+    animation-delay: 0.9s;
+}
+
+@keyframes Telegram {
+    0% {
+        top: 155px;
+        left: 85px;
+    }
+
+    100% {
+        top: 60px;
+        left: 120px;
+    }
+}
+
+@keyframes TelegramOut {
+    100% {
+        top: 155px;
+        left: 85px;
+    }
+
+    0% {
+        top: 60px;
+        left: 120px;
+    }
+}
+
+@keyframes Instagram {
+    0% {
+        top: 155px;
+        left: 85px;
+    }
+
+    100% {
+        top: 120px;
+        left: 160px;
+    }
+}
+
+@keyframes InstagramOut {
+    100% {
+        top: 155px;
+        left: 85px;
+    }
+
+    0% {
+        top: 120px;
+        left: 160px;
+    }
+}
+
+@keyframes Facebook {
+    0% {
+        top: 155px;
+        left: 85px;
+    }
+
+    100% {
+        top: 190px;
+        left: 160px;
+    }
+}
+
+@keyframes FacebookOut {
+    100% {
+        top: 155px;
+        left: 85px;
+    }
+
+    0% {
+        top: 190px;
+        left: 160px;
+    }
+}
+
+@keyframes Youtube {
+    0% {
+        top: 155px;
+        left: 85px;
+    }
+
+    100% {
+        top: 240px;
+        left: 120px;
+    }
+}
+
+@keyframes YoutubeOut {
+    100% {
+        top: 155px;
+        left: 85px;
+    }
+
+    0% {
+        top: 240px;
+        left: 120px;
+    }
+}
