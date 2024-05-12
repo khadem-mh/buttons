@@ -14,9 +14,13 @@
 >> 
 >> ![](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=1500&pause=5000&color=5BCAF7&random=false&width=55&height=25&lines=Css3)
 
-## View of the project
+## <p align="center"> View of the project </p>
 
-<img src="./Video/text.gif" width="220px"/>
+ <p align="center"> <img src="./Video/btn-2.gif" width="220px"/><br/>
+<img src="./Video/btn-3.gif" width="220px"/><br/>
+<img src="./Video/btn-4.gif" width="220px"/><br/>
+<img src="./Video/btn-1.gif" width="220px"/><br/>
+<img src="./Video/btn-5.gif" width="220px"/></p>
 
 ___
 >### Social Network
