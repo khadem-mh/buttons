@@ -15,6 +15,7 @@
 >> ![](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=1500&pause=5000&color=5BCAF7&random=false&width=55&height=25&lines=Css3)
 
 ## <p align="center"> View of the project </p>
+<p align="center"> Below are only 5 examples of buttons displayed </p>
 
  <p align="center"> <img src="./Video/btn-2.gif" width="220px"/><br/>
 <img src="./Video/btn-3.gif" width="220px"/><br/>
